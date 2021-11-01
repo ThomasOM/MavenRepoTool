@@ -48,6 +48,6 @@ mvn install:install-file -DgroupId=${group_id} -DartifactId=${artifact_id} -Dver
 echo "Committing and pushing to repository branch..."
 git add -A .
 git commit -m "Release version ${version}"
-git push origin repository
+git push origin repository --force
 
 echo "Done!"
