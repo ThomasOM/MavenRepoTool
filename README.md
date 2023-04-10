@@ -1,6 +1,6 @@
 # MavenRepoTool
 A simple shell script that creates a maven repository on your project's github repository.
-Note that this is now obsolete since Github has public packages that do not require authentication.
+Note that this should be obsolete when Github has public packages that can be read without authentication.
 
 # How to use
 Please read this before you use the script to prevent messing up your project's github repository.
